@@ -1,0 +1,62 @@
+[{
+    "_id": "<objectId>",
+    "first_name": "<string>",
+    "last_name": "<string>",
+    "recruiting_source": "<string>",
+    "years_experience": "<int>",
+    "previous_employer": "<string>",
+    "extend_offer": "<string>",
+    "engineer_level": "<int>",
+    "education": [{
+      "level": "<string>",
+      "subject": "<string>"
+    }],
+    "technical": ["<string>"],
+    "non-technical": {
+      "languages": ["<string>"],
+      "other": ["<string>"]
+    },
+    "candidate_notes": "<string>"
+  }, {
+    "_id": "<objectId>",
+    "first_name": "<string>",
+    "last_name": "<string>",
+    "recruiting_source": "<string>",
+    "extend_offer": "<string>",
+    "team_placement": "<string>",
+    "start_date": "<date>",
+    "end_date": "<date>",
+    "education": "<string>",
+    "technical_skills": ["<string>"],
+    "non-technical_skills": {
+      "languages": ["<string>"],
+      "other": ["<string>"]
+    },
+    "notes": "<string>"
+  },
+  {
+    "_id": "<objectId>",
+    "first_name": "<string>",
+    "last_name": "<string>",
+    "recruiting_source": "<string>",
+    "extend_offer": "<string>",
+    "team_placement": "<string>",
+    "start_date": "<date>",
+    "end_date": "<date>",
+    "education": [{
+        "level": "<string>",
+        "subject": "<string>"
+      },
+      {
+        "level": "<string>",
+        "subject": "<string>"
+      }
+    ],
+    "skills": {
+      "technical": ["<string>"],
+      "languages": ["<string>"],
+      "other": ["<string>"]
+    },
+    "notes": "<string>"
+  }
+  ]
